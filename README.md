@@ -16,7 +16,9 @@ Node v8 or greater is required.
 ### Usage
 
 Syntax:  
-`node webgrab.js <site> [dimensions]`
+`node webgrab.js <site> [dimensions]`  
+  
+Dimensions default to 1920x1080 if nothing is specified.
 
 Example:  
-`node webgrab.js https://github.com/robaxelsen/webgrabjs 1920x1080`
+`node webgrab.js https://github.com/robaxelsen/webgrabjs 1280x720`
