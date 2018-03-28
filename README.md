@@ -1,6 +1,6 @@
 # Webgrab.js
 
-Really simple CLI tool to quickly grab a screenshot of the front page of a website.
+Really simple CLI tool to quickly grab a screenshot of a website url.
 
 ### Installation
 
