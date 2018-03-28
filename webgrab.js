@@ -3,8 +3,8 @@ const domain = require('getdomain');
 const args = process.argv;
 
 const dimensions = args[3].split('x');
-const height = parseInt(dimensions[0]) ? parseInt(dimensions[0]) : 1920;
-const width = parseInt(dimensions[1]) ? parseInt(dimensions[1]) : 1080;
+const width = parseInt(dimensions[0]) ? parseInt(dimensions[0]) : 1920;
+const height = parseInt(dimensions[1]) ? parseInt(dimensions[1]) : 1080;
 
 const url = args[2];
 const currentDate = new Date().toISOString().replace(/T/, '_').replace(/\..+/, '').replace(/:/g, '-');
